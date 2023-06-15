@@ -242,3 +242,13 @@ forge script --broadcast \
 script/deployParameters/DeployUniversalRouter.s.sol:DeployUniversalRouter \
 <pathToJSON>
 ```
+
+#### Deploy To Core Test Chain
+```console
+forge script --broadcast \
+--rpc-url https://rpc.test.btcs.network \
+--private-key <PRIVATE_KEY> \
+--sig 'run()' \
+script/deployParameters/DeployCoreTest.s.sol:DeployCoreTest \
+--legacy
+```
