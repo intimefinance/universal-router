@@ -23,9 +23,9 @@ contract DeployCoreTest is DeployUniversalRouter {
             routerRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
-            v2Factory: UNSUPPORTED_PROTOCOL,
+            v2Factory: 0x7f7ad80Cb22c591e1064d96c9A076a47C3374f08,
             v3Factory: 0xDC85934D7045bd99e7a422487efF64f7F25603A9,
-            pairInitCodeHash: BYTES32_ZERO,
+            pairInitCodeHash: 0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f,
             poolInitCodeHash: 0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54
         });
 
